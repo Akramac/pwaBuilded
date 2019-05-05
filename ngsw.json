@@ -1,0 +1,88 @@
+{
+  "configVersion": 1,
+  "timestamp": 1556979284714,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/es2015-polyfills.c5dd28b362270c767b34.js",
+        "/favicon.ico",
+        "/index.html",
+        "/main.1847aee3ee68a6da5d34.js",
+        "/polyfills.8bbb231b43165d65d357.js",
+        "/runtime.26209474bfa8dc87a77c.js",
+        "/styles.3ff695c00d717f2d2a11.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/icons/product.js"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "jokes-api",
+      "patterns": [
+        "https:\\/\\/api\\/chucknorris\\.io\\/jokes\\.random"
+      ],
+      "strategy": "freshness",
+      "maxSize": 20,
+      "maxAge": 3600000,
+      "timeoutMs": 5000,
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/assets/icons/icon-128x128.png": "3933489937ea038d1c1317c8981da738c12585b1",
+    "/assets/icons/icon-144x144.png": "d1ff0d0d7c74b601f06c8f30b6cfec263148abd8",
+    "/assets/icons/icon-152x152.png": "80791b28bb3b75c87132665bbe9fd8ca019da286",
+    "/assets/icons/icon-192x192.png": "26bb61abb15223b50bf690300a40a5141842ad6b",
+    "/assets/icons/icon-384x384.png": "5c6791a5cffef005b35b3eee08a21059fb46734f",
+    "/assets/icons/icon-512x512.png": "645fdee137be906b3eb465412960e002212245c7",
+    "/assets/icons/icon-72x72.png": "1c7cdce14c76efeb245f29ddee68c149dd78c624",
+    "/assets/icons/icon-96x96.png": "30ebf9033b8c46feebdf0d8121dabc125eece88f",
+    "/assets/icons/product.js": "2435e7e85403bfdb66c38d4e05df57d8ccd44cbc",
+    "/es2015-polyfills.c5dd28b362270c767b34.js": "b7a81c61d32b0b12737f0c13f45973ba391cd7f9",
+    "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "/index.html": "cce3510f9cfef54b72061847ced82f5522ae3b90",
+    "/main.1847aee3ee68a6da5d34.js": "cf508be6f161ef573efbdcd681ece9c018a94ce1",
+    "/polyfills.8bbb231b43165d65d357.js": "ffa449995bf2eba2ccd0a002417214f7eb75e7b5",
+    "/runtime.26209474bfa8dc87a77c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "/styles.3ff695c00d717f2d2a11.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
